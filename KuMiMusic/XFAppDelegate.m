@@ -7,13 +7,30 @@
 //
 
 #import "XFAppDelegate.h"
-
+#import "XFGobalBBCViewController.h"
+#import "XFMyMusicBaseController.h"
+#import "XFCoustomTabBarView.h"
 @implementation XFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    XFGobalBBCViewController *bbFMCtl = [[XFGobalBBCViewController alloc] init];
+    UINavigationController *bbFmNav = [[UINavigationController alloc] initWithRootViewController:bbFMCtl];
+    XFMyMusicBaseController *loactionCtl = [[XFMyMusicBaseController alloc] init];
+    UINavigationController *locationFmNav = [[UINavigationController alloc] initWithRootViewController:loactionCtl];
+    
+    UITabBarController *rootTabCtl = [[UITabBarController alloc] init];
+    rootTabCtl.viewControllers = @[locationFmNav,bbFmNav];
+    rootTabCtl.tabBar.hidden = YES;
+    UIView *transtionView = rootTabCtl.view.subviews[0];
+    transtionView.frame = CGRectMake(0, 0, SCREENWIDTH, SCREENHEIGHT-39);
+    
+    XFCoustomTabBarView *tabBarCoustemView = [[XFCoustomTabBarView alloc] initWithFrame:CGRectMake(0,transtionView.frame.size.height,transtionView.frame.size.width,39) andViewControllers:rootTabCtl.viewControllers];
+    tabBarCoustemView.tabBarCtl = rootTabCtl;
+    [rootTabCtl.view addSubview:tabBarCoustemView];
+    self.window.rootViewController = rootTabCtl;
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011FDB9519976BFF00724495 /* XFMyMusicBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FDB9219976BFF00724495 /* XFMyMusicBaseController.m */; };
+		011FDB9619976BFF00724495 /* XFAudioBaseListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FDB9419976BFF00724495 /* XFAudioBaseListController.m */; };
+		011FDB9B19976C1E00724495 /* XFGobalBBCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FDB9819976C1E00724495 /* XFGobalBBCViewController.m */; };
+		011FDB9C19976C1E00724495 /* XFFMListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FDB9A19976C1E00724495 /* XFFMListController.m */; };
+		011FDBA119976C7800724495 /* XFAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FDB9F19976C7800724495 /* XFAudio.m */; };
+		011FDBA419976C8600724495 /* XFFMAudioMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FDBA319976C8600724495 /* XFFMAudioMode.m */; };
+		011FDBA719976C9300724495 /* XFLocationCellMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FDBA619976C9300724495 /* XFLocationCellMode.m */; };
+		011FDBAA19976C9F00724495 /* XFLocationBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FDBA919976C9F00724495 /* XFLocationBannerView.m */; };
+		011FDBAD19976CF800724495 /* XFCoustomTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FDBAC19976CF800724495 /* XFCoustomTabBarView.m */; };
+		011FDBB119976F5F00724495 /* XFLocationBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FDBB019976F5F00724495 /* XFLocationBaseCell.m */; };
+		011FDBB419977B5800724495 /* narbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 011FDBB319977B5800724495 /* narbar_bg.png */; };
+		011FDBBB19977BE800724495 /* xf_loctiondownload.png in Resources */ = {isa = PBXBuildFile; fileRef = 011FDBB519977BE800724495 /* xf_loctiondownload.png */; };
+		011FDBBC19977BE800724495 /* xf_loctionfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 011FDBB619977BE800724495 /* xf_loctionfile.png */; };
+		011FDBBD19977BE800724495 /* xf_mycentlisen.png in Resources */ = {isa = PBXBuildFile; fileRef = 011FDBB719977BE800724495 /* xf_mycentlisen.png */; };
+		011FDBBE19977BE800724495 /* xf_play_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 011FDBB819977BE800724495 /* xf_play_icon.png */; };
+		011FDBBF19977BE800724495 /* xf_radarLove.png in Resources */ = {isa = PBXBuildFile; fileRef = 011FDBB919977BE800724495 /* xf_radarLove.png */; };
+		011FDBC019977BE800724495 /* xf_radarLove@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 011FDBBA19977BE800724495 /* xf_radarLove@2x.png */; };
+		011FDBC319977D0100724495 /* 广播电台在线听地址.txt in Resources */ = {isa = PBXBuildFile; fileRef = 011FDBC219977D0100724495 /* 广播电台在线听地址.txt */; };
+		011FDBC619977DF900724495 /* SO_FMCategroyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FDBC519977DF900724495 /* SO_FMCategroyView.m */; };
+		011FDBC81997816000724495 /* fm_default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 011FDBC71997816000724495 /* fm_default.jpg */; };
 		0142A6CF19974EF900A9E23D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142A6CE19974EF900A9E23D /* Foundation.framework */; };
 		0142A6D119974EF900A9E23D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142A6D019974EF900A9E23D /* CoreGraphics.framework */; };
 		0142A6D319974EF900A9E23D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142A6D219974EF900A9E23D /* UIKit.framework */; };
@@ -32,6 +52,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011FDB9119976BFF00724495 /* XFMyMusicBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFMyMusicBaseController.h; sourceTree = "<group>"; };
+		011FDB9219976BFF00724495 /* XFMyMusicBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFMyMusicBaseController.m; sourceTree = "<group>"; };
+		011FDB9319976BFF00724495 /* XFAudioBaseListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFAudioBaseListController.h; sourceTree = "<group>"; };
+		011FDB9419976BFF00724495 /* XFAudioBaseListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFAudioBaseListController.m; sourceTree = "<group>"; };
+		011FDB9719976C1E00724495 /* XFGobalBBCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFGobalBBCViewController.h; sourceTree = "<group>"; };
+		011FDB9819976C1E00724495 /* XFGobalBBCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFGobalBBCViewController.m; sourceTree = "<group>"; };
+		011FDB9919976C1E00724495 /* XFFMListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFFMListController.h; sourceTree = "<group>"; };
+		011FDB9A19976C1E00724495 /* XFFMListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFFMListController.m; sourceTree = "<group>"; };
+		011FDB9F19976C7800724495 /* XFAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFAudio.m; sourceTree = "<group>"; };
+		011FDBA019976C7800724495 /* XFAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFAudio.h; sourceTree = "<group>"; };
+		011FDBA219976C8600724495 /* XFFMAudioMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFFMAudioMode.h; sourceTree = "<group>"; };
+		011FDBA319976C8600724495 /* XFFMAudioMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFFMAudioMode.m; sourceTree = "<group>"; };
+		011FDBA519976C9300724495 /* XFLocationCellMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFLocationCellMode.h; sourceTree = "<group>"; };
+		011FDBA619976C9300724495 /* XFLocationCellMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFLocationCellMode.m; sourceTree = "<group>"; };
+		011FDBA819976C9F00724495 /* XFLocationBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFLocationBannerView.h; sourceTree = "<group>"; };
+		011FDBA919976C9F00724495 /* XFLocationBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFLocationBannerView.m; sourceTree = "<group>"; };
+		011FDBAB19976CF800724495 /* XFCoustomTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFCoustomTabBarView.h; sourceTree = "<group>"; };
+		011FDBAC19976CF800724495 /* XFCoustomTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFCoustomTabBarView.m; sourceTree = "<group>"; };
+		011FDBAE19976DBC00724495 /* XFDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFDefine.h; sourceTree = "<group>"; };
+		011FDBAF19976F5F00724495 /* XFLocationBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFLocationBaseCell.h; sourceTree = "<group>"; };
+		011FDBB019976F5F00724495 /* XFLocationBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFLocationBaseCell.m; sourceTree = "<group>"; };
+		011FDBB319977B5800724495 /* narbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = narbar_bg.png; path = img/narbar_bg.png; sourceTree = "<group>"; };
+		011FDBB519977BE800724495 /* xf_loctiondownload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xf_loctiondownload.png; path = img/xf_loctiondownload.png; sourceTree = "<group>"; };
+		011FDBB619977BE800724495 /* xf_loctionfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xf_loctionfile.png; path = img/xf_loctionfile.png; sourceTree = "<group>"; };
+		011FDBB719977BE800724495 /* xf_mycentlisen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xf_mycentlisen.png; path = img/xf_mycentlisen.png; sourceTree = "<group>"; };
+		011FDBB819977BE800724495 /* xf_play_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xf_play_icon.png; path = img/xf_play_icon.png; sourceTree = "<group>"; };
+		011FDBB919977BE800724495 /* xf_radarLove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xf_radarLove.png; path = img/xf_radarLove.png; sourceTree = "<group>"; };
+		011FDBBA19977BE800724495 /* xf_radarLove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "xf_radarLove@2x.png"; path = "img/xf_radarLove@2x.png"; sourceTree = "<group>"; };
+		011FDBC219977D0100724495 /* 广播电台在线听地址.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "广播电台在线听地址.txt"; sourceTree = "<group>"; };
+		011FDBC419977DF900724495 /* SO_FMCategroyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SO_FMCategroyView.h; sourceTree = "<group>"; };
+		011FDBC519977DF900724495 /* SO_FMCategroyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SO_FMCategroyView.m; sourceTree = "<group>"; };
+		011FDBC71997816000724495 /* fm_default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fm_default.jpg; path = img/fm_default.jpg; sourceTree = "<group>"; };
 		0142A6CB19974EF900A9E23D /* KuMiMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuMiMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0142A6CE19974EF900A9E23D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0142A6D019974EF900A9E23D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +126,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011FDB8E19976BA700724495 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				011FDB9D19976C2900724495 /* LoctionControllers */,
+				011FDB9E19976C4100724495 /* FMControllers */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		011FDB8F19976BC700724495 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				011FDBC419977DF900724495 /* SO_FMCategroyView.h */,
+				011FDBC519977DF900724495 /* SO_FMCategroyView.m */,
+				011FDBAB19976CF800724495 /* XFCoustomTabBarView.h */,
+				011FDBAC19976CF800724495 /* XFCoustomTabBarView.m */,
+				011FDBA819976C9F00724495 /* XFLocationBannerView.h */,
+				011FDBA919976C9F00724495 /* XFLocationBannerView.m */,
+				011FDBAF19976F5F00724495 /* XFLocationBaseCell.h */,
+				011FDBB019976F5F00724495 /* XFLocationBaseCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		011FDB9019976BD800724495 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+				011FDBA519976C9300724495 /* XFLocationCellMode.h */,
+				011FDBA619976C9300724495 /* XFLocationCellMode.m */,
+				011FDBA219976C8600724495 /* XFFMAudioMode.h */,
+				011FDBA319976C8600724495 /* XFFMAudioMode.m */,
+				011FDB9F19976C7800724495 /* XFAudio.m */,
+				011FDBA019976C7800724495 /* XFAudio.h */,
+			);
+			name = Modes;
+			sourceTree = "<group>";
+		};
+		011FDB9D19976C2900724495 /* LoctionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				011FDB9119976BFF00724495 /* XFMyMusicBaseController.h */,
+				011FDB9219976BFF00724495 /* XFMyMusicBaseController.m */,
+				011FDB9319976BFF00724495 /* XFAudioBaseListController.h */,
+				011FDB9419976BFF00724495 /* XFAudioBaseListController.m */,
+			);
+			name = LoctionControllers;
+			sourceTree = "<group>";
+		};
+		011FDB9E19976C4100724495 /* FMControllers */ = {
+			isa = PBXGroup;
+			children = (
+				011FDB9719976C1E00724495 /* XFGobalBBCViewController.h */,
+				011FDB9819976C1E00724495 /* XFGobalBBCViewController.m */,
+				011FDB9919976C1E00724495 /* XFFMListController.h */,
+				011FDB9A19976C1E00724495 /* XFFMListController.m */,
+			);
+			name = FMControllers;
+			sourceTree = "<group>";
+		};
+		011FDBB219977B4700724495 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				011FDBC71997816000724495 /* fm_default.jpg */,
+				011FDBB519977BE800724495 /* xf_loctiondownload.png */,
+				011FDBB619977BE800724495 /* xf_loctionfile.png */,
+				011FDBB719977BE800724495 /* xf_mycentlisen.png */,
+				011FDBB819977BE800724495 /* xf_play_icon.png */,
+				011FDBB919977BE800724495 /* xf_radarLove.png */,
+				011FDBBA19977BE800724495 /* xf_radarLove@2x.png */,
+				011FDBB319977B5800724495 /* narbar_bg.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		0142A6C219974EF900A9E23D = {
 			isa = PBXGroup;
 			children = (
@@ -107,8 +233,9 @@
 		0142A6D419974EF900A9E23D /* KuMiMusic */ = {
 			isa = PBXGroup;
 			children = (
-				0142A6DD19974EF900A9E23D /* XFAppDelegate.h */,
-				0142A6DE19974EF900A9E23D /* XFAppDelegate.m */,
+				011FDB8E19976BA700724495 /* ViewControllers */,
+				011FDB8F19976BC700724495 /* Views */,
+				011FDB9019976BD800724495 /* Modes */,
 				0142A6E019974EF900A9E23D /* Images.xcassets */,
 				0142A6D519974EF900A9E23D /* Supporting Files */,
 			);
@@ -118,6 +245,11 @@
 		0142A6D519974EF900A9E23D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				011FDBC219977D0100724495 /* 广播电台在线听地址.txt */,
+				011FDBB219977B4700724495 /* img */,
+				011FDBAE19976DBC00724495 /* XFDefine.h */,
+				0142A6DE19974EF900A9E23D /* XFAppDelegate.m */,
+				0142A6DD19974EF900A9E23D /* XFAppDelegate.h */,
 				0142A6D619974EF900A9E23D /* KuMiMusic-Info.plist */,
 				0142A6D719974EF900A9E23D /* InfoPlist.strings */,
 				0142A6DA19974EF900A9E23D /* main.m */,
@@ -220,7 +352,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011FDBC019977BE800724495 /* xf_radarLove@2x.png in Resources */,
+				011FDBC319977D0100724495 /* 广播电台在线听地址.txt in Resources */,
+				011FDBBF19977BE800724495 /* xf_radarLove.png in Resources */,
 				0142A6D919974EF900A9E23D /* InfoPlist.strings in Resources */,
+				011FDBBD19977BE800724495 /* xf_mycentlisen.png in Resources */,
+				011FDBBC19977BE800724495 /* xf_loctionfile.png in Resources */,
+				011FDBB419977B5800724495 /* narbar_bg.png in Resources */,
+				011FDBBB19977BE800724495 /* xf_loctiondownload.png in Resources */,
+				011FDBBE19977BE800724495 /* xf_play_icon.png in Resources */,
+				011FDBC81997816000724495 /* fm_default.jpg in Resources */,
 				0142A6E119974EF900A9E23D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +381,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011FDBAD19976CF800724495 /* XFCoustomTabBarView.m in Sources */,
+				011FDB9C19976C1E00724495 /* XFFMListController.m in Sources */,
+				011FDBAA19976C9F00724495 /* XFLocationBannerView.m in Sources */,
+				011FDB9B19976C1E00724495 /* XFGobalBBCViewController.m in Sources */,
+				011FDBA419976C8600724495 /* XFFMAudioMode.m in Sources */,
+				011FDBB119976F5F00724495 /* XFLocationBaseCell.m in Sources */,
+				011FDBC619977DF900724495 /* SO_FMCategroyView.m in Sources */,
+				011FDBA719976C9300724495 /* XFLocationCellMode.m in Sources */,
+				011FDB9519976BFF00724495 /* XFMyMusicBaseController.m in Sources */,
+				011FDB9619976BFF00724495 /* XFAudioBaseListController.m in Sources */,
+				011FDBA119976C7800724495 /* XFAudio.m in Sources */,
 				0142A6DF19974EF900A9E23D /* XFAppDelegate.m in Sources */,
 				0142A6DB19974EF900A9E23D /* main.m in Sources */,
 			);
@@ -440,6 +592,7 @@
 				0142A6F919974EF900A9E23D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0142A6FA19974EF900A9E23D /* Build configuration list for PBXNativeTarget "KuMiMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +601,7 @@
 				0142A6FC19974EF900A9E23D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

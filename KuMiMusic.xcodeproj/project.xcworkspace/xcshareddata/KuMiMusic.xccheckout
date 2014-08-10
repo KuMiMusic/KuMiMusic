@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>80A467AD-09C1-4DEE-AA32-D2C8A85FD87D</string>
+	<string>E7508445-767F-4BD1-B9FF-2C648A15A7C9</string>
 	<key>IDESourceControlProjectName</key>
 	<string>KuMiMusic</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C7914434-5EE7-4D66-B5AE-7BD08E210DB8</key>
-		<string>https://github.com/KuMiMusic/KuMi.git</string>
+		<key>9BC04865-FB32-42E3-8677-050F2F616D80</key>
+		<string>ssh://github_work/KuMiMusic/KuMiMusic.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>KuMiMusic/KuMiMusic.xcodeproj/project.xcworkspace</string>
+	<string>KuMiMusic.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C7914434-5EE7-4D66-B5AE-7BD08E210DB8</key>
-		<string>../../..</string>
+		<key>9BC04865-FB32-42E3-8677-050F2F616D80</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/KuMiMusic/KuMi.git</string>
+	<string>ssh://github_work/KuMiMusic/KuMiMusic.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C7914434-5EE7-4D66-B5AE-7BD08E210DB8</string>
+	<string>9BC04865-FB32-42E3-8677-050F2F616D80</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C7914434-5EE7-4D66-B5AE-7BD08E210DB8</string>
+			<string>9BC04865-FB32-42E3-8677-050F2F616D80</string>
 			<key>IDESourceControlWCCName</key>
-			<string>KuMi</string>
+			<string>KuMiMusic</string>
 		</dict>
 	</array>
 </dict>
