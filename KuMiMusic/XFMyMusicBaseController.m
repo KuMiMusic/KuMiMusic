@@ -93,18 +93,17 @@
         audio.title = [item valueForProperty:MPMediaItemPropertyTitle];
         audio.artist = [item valueForProperty:MPMediaItemPropertyArtist];
         audio.album  = [item valueForProperty:MPMediaItemPropertyAlbumTitle];
-        NSString *playurl = [[item valueForProperty:MPMediaItemPropertyAssetURL] absoluteString];
+        audio.playURL = [item valueForProperty:MPMediaItemPropertyAssetURL];
+        NSString *playurl = [audio.playURL absoluteString];
         audio.play_uri = playurl;
         audio.download_url = playurl;
         audio.remote_play_uri = playurl;
         audio.audioID = playurl;
-        audio.isIpodSource = YES;
         audio.audioType = 1;
         audio.album_id = [item valueForProperty:MPMediaItemPropertyAlbumPersistentID];
-        audio.album_art = [item valueForProperty:MPMediaItemPropertyAlbumArtist];
+        audio.album_arist = [item valueForProperty:MPMediaItemPropertyAlbumArtist];
         CGSize size = CGSizeMake(60, 60);
         audio.albumCover = [[item valueForProperty:MPMediaItemPropertyArtwork] imageWithSize:size];
-        audio.mediaItem= item;
         [ipodArray addObject:audio];
     }
     return ipodArray;

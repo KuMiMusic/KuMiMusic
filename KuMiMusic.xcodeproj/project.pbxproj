@@ -27,6 +27,9 @@
 		011FDBC319977D0100724495 /* 广播电台在线听地址.txt in Resources */ = {isa = PBXBuildFile; fileRef = 011FDBC219977D0100724495 /* 广播电台在线听地址.txt */; };
 		011FDBC619977DF900724495 /* SO_FMCategroyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 011FDBC519977DF900724495 /* SO_FMCategroyView.m */; };
 		011FDBC81997816000724495 /* fm_default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 011FDBC71997816000724495 /* fm_default.jpg */; };
+		012B07CB199BBDE80039DEED /* XFPlayerBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 012B07CA199BBDE80039DEED /* XFPlayerBoxView.m */; };
+		012B07D0199BCBB10039DEED /* skin_black_nav-bar-back-button-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 012B07CE199BCBB10039DEED /* skin_black_nav-bar-back-button-pressed@2x.png */; };
+		012B07D1199BCBB10039DEED /* skin_black_nav-bar-back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 012B07CF199BCBB10039DEED /* skin_black_nav-bar-back-button@2x.png */; };
 		0142A6CF19974EF900A9E23D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142A6CE19974EF900A9E23D /* Foundation.framework */; };
 		0142A6D119974EF900A9E23D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142A6D019974EF900A9E23D /* CoreGraphics.framework */; };
 		0142A6D319974EF900A9E23D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142A6D219974EF900A9E23D /* UIKit.framework */; };
@@ -39,6 +42,8 @@
 		0142A6EA19974EF900A9E23D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142A6D219974EF900A9E23D /* UIKit.framework */; };
 		0142A6F219974EF900A9E23D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0142A6F019974EF900A9E23D /* InfoPlist.strings */; };
 		0142A6F419974EF900A9E23D /* KuMiMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0142A6F319974EF900A9E23D /* KuMiMusicTests.m */; };
+		01FF7B60199A559500484B22 /* XFAudioPayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FF7B5F199A559500484B22 /* XFAudioPayerManager.m */; };
+		01FF7B63199A58D700484B22 /* XFBoxAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FF7B62199A58D700484B22 /* XFBoxAudioPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +89,10 @@
 		011FDBC419977DF900724495 /* SO_FMCategroyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SO_FMCategroyView.h; sourceTree = "<group>"; };
 		011FDBC519977DF900724495 /* SO_FMCategroyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SO_FMCategroyView.m; sourceTree = "<group>"; };
 		011FDBC71997816000724495 /* fm_default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fm_default.jpg; path = img/fm_default.jpg; sourceTree = "<group>"; };
+		012B07C9199BBDE80039DEED /* XFPlayerBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFPlayerBoxView.h; sourceTree = "<group>"; };
+		012B07CA199BBDE80039DEED /* XFPlayerBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFPlayerBoxView.m; sourceTree = "<group>"; };
+		012B07CE199BCBB10039DEED /* skin_black_nav-bar-back-button-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "skin_black_nav-bar-back-button-pressed@2x.png"; path = "img/player page/skin_black_nav-bar-back-button-pressed@2x.png"; sourceTree = "<group>"; };
+		012B07CF199BCBB10039DEED /* skin_black_nav-bar-back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "skin_black_nav-bar-back-button@2x.png"; path = "img/player page/skin_black_nav-bar-back-button@2x.png"; sourceTree = "<group>"; };
 		0142A6CB19974EF900A9E23D /* KuMiMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuMiMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0142A6CE19974EF900A9E23D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0142A6D019974EF900A9E23D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,6 +109,10 @@
 		0142A6EF19974EF900A9E23D /* KuMiMusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KuMiMusicTests-Info.plist"; sourceTree = "<group>"; };
 		0142A6F119974EF900A9E23D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0142A6F319974EF900A9E23D /* KuMiMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KuMiMusicTests.m; sourceTree = "<group>"; };
+		01FF7B5E199A559500484B22 /* XFAudioPayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFAudioPayerManager.h; sourceTree = "<group>"; };
+		01FF7B5F199A559500484B22 /* XFAudioPayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFAudioPayerManager.m; sourceTree = "<group>"; };
+		01FF7B61199A58D700484B22 /* XFBoxAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFBoxAudioPlayer.h; sourceTree = "<group>"; };
+		01FF7B62199A58D700484B22 /* XFBoxAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFBoxAudioPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +159,8 @@
 				011FDBA919976C9F00724495 /* XFLocationBannerView.m */,
 				011FDBAF19976F5F00724495 /* XFLocationBaseCell.h */,
 				011FDBB019976F5F00724495 /* XFLocationBaseCell.m */,
+				012B07C9199BBDE80039DEED /* XFPlayerBoxView.h */,
+				012B07CA199BBDE80039DEED /* XFPlayerBoxView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -159,6 +174,10 @@
 				011FDBA319976C8600724495 /* XFFMAudioMode.m */,
 				011FDB9F19976C7800724495 /* XFAudio.m */,
 				011FDBA019976C7800724495 /* XFAudio.h */,
+				01FF7B5E199A559500484B22 /* XFAudioPayerManager.h */,
+				01FF7B5F199A559500484B22 /* XFAudioPayerManager.m */,
+				01FF7B61199A58D700484B22 /* XFBoxAudioPlayer.h */,
+				01FF7B62199A58D700484B22 /* XFBoxAudioPlayer.m */,
 			);
 			name = Modes;
 			sourceTree = "<group>";
@@ -188,6 +207,8 @@
 		011FDBB219977B4700724495 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				012B07CE199BCBB10039DEED /* skin_black_nav-bar-back-button-pressed@2x.png */,
+				012B07CF199BCBB10039DEED /* skin_black_nav-bar-back-button@2x.png */,
 				011FDBC71997816000724495 /* fm_default.jpg */,
 				011FDBB519977BE800724495 /* xf_loctiondownload.png */,
 				011FDBB619977BE800724495 /* xf_loctionfile.png */,
@@ -360,9 +381,11 @@
 				011FDBBC19977BE800724495 /* xf_loctionfile.png in Resources */,
 				011FDBB419977B5800724495 /* narbar_bg.png in Resources */,
 				011FDBBB19977BE800724495 /* xf_loctiondownload.png in Resources */,
+				012B07D1199BCBB10039DEED /* skin_black_nav-bar-back-button@2x.png in Resources */,
 				011FDBBE19977BE800724495 /* xf_play_icon.png in Resources */,
 				011FDBC81997816000724495 /* fm_default.jpg in Resources */,
 				0142A6E119974EF900A9E23D /* Images.xcassets in Resources */,
+				012B07D0199BCBB10039DEED /* skin_black_nav-bar-back-button-pressed@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,11 +409,14 @@
 				011FDBAA19976C9F00724495 /* XFLocationBannerView.m in Sources */,
 				011FDB9B19976C1E00724495 /* XFGobalBBCViewController.m in Sources */,
 				011FDBA419976C8600724495 /* XFFMAudioMode.m in Sources */,
+				01FF7B63199A58D700484B22 /* XFBoxAudioPlayer.m in Sources */,
 				011FDBB119976F5F00724495 /* XFLocationBaseCell.m in Sources */,
 				011FDBC619977DF900724495 /* SO_FMCategroyView.m in Sources */,
 				011FDBA719976C9300724495 /* XFLocationCellMode.m in Sources */,
 				011FDB9519976BFF00724495 /* XFMyMusicBaseController.m in Sources */,
 				011FDB9619976BFF00724495 /* XFAudioBaseListController.m in Sources */,
+				012B07CB199BBDE80039DEED /* XFPlayerBoxView.m in Sources */,
+				01FF7B60199A559500484B22 /* XFAudioPayerManager.m in Sources */,
 				011FDBA119976C7800724495 /* XFAudio.m in Sources */,
 				0142A6DF19974EF900A9E23D /* XFAppDelegate.m in Sources */,
 				0142A6DB19974EF900A9E23D /* main.m in Sources */,

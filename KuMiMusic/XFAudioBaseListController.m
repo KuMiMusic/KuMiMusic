@@ -7,7 +7,7 @@
 //
 
 #import "XFAudioBaseListController.h"
-#import "XFAudio.h"
+#import "XFPlayerBoxView.h"
 @interface XFAudioBaseListController ()<UITableViewDataSource,UITableViewDelegate>
 
 @end
@@ -49,7 +49,23 @@
     return cell;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+     XFAudio *auido = _ipodAudioArray[indexPath.row];
     
+    //开始播放本地歌曲
+    XFAudioPayerManager *playManager = [XFAudioPayerManager shareDistance];
+    //不是播放当前的歌曲
+    if (!playManager.currentBoxPlayer.currentAudio || ![playManager.currentBoxPlayer.currentAudio.audioID isEqualToString:auido.audioID]) {
+        [playManager.currentBoxPlayer xfBoxPlayerStartWithAudio:auido];
+          NSLog(@"播放本地歌曲");
+    }
+    //如果是当前播放的歌曲
+    else {
+     //弹出播放界面，继续播放
+        NSLog(@"弹出播放界面，继续播放");
+        XFAppDelegate *app = (XFAppDelegate*)[UIApplication sharedApplication].delegate;
+        XFPlayerBoxView *playerBoxView = [[XFPlayerBoxView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, SCREENHEIGHT) withAudio:auido];
+        [app.window addSubview:playerBoxView];
+    }
 }
 #pragma mark--
 #pragma mark-- system otheres Moethes
